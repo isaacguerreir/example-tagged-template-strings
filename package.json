@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node main-compiled.js",
+    "start": "yarn build && node main-compiled.js",
     "build": "babel main.js --out-file main-compiled.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
